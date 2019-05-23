@@ -24,6 +24,11 @@ public abstract class Vehicle {
 		this.perSent = perSent;
 	}
 
+	public Vehicle(String brand, String vehicleId) {
+		super();
+		this.brand = brand;
+		this.vehicleId = vehicleId;
+	}
 	public Vehicle(){}////品牌  车牌号  日租金
 	public Vehicle(String brand, String vehicleId, int perSent) {
 		
